@@ -15,3 +15,14 @@ function validateform(){
         alert("Successfully login");
     }
 }
+
+/*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+    distance: '100px',
+    duration: 1200,
+    delay: 200,
+    interval : 100,
+    reset: true 
+})
+sr.reveal(`h1 h4`,{delay: 600, origin: 'top'})
+sr.reveal(`.icons`,{origin: 'bottom', interval: 100})
