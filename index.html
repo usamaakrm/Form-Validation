@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+    <link rel="icon" type="image/x-icon" href="image/login.png">
+</head>
+<body>
+    <section>
+        
+    <form id="form" name="myform" onsubmit="validateform()">
+        <div id="img">
+            <img src="image/p1.jpg" width="200px" alt="" srcset="">
+
+        </div>
+        <div>
+         <h1>Hello Again!</h1>
+         <h4>Welcome back you've <br>been missed!</h4>
+         <div id="marg">
+         <input type="text" name="name" placeholder="Enter username" id="input" required autocomplete="off"  >
+         <br>
+         
+         <input type="password" name="password" placeholder="password" id="input" required><br>
+         <h5>Recovery Password</h5>
+         <button type="submit" id="btn">Sign In</button>
+         <h6>Or continue with</h6>
+
+         <div class="icons">
+             <img src="image/google.png" alt="">
+             <img src="image/apple.png" alt="">
+             <img src="image/facebook.png" alt="">
+         </div>
+        </div>
+    </form>
+</section>
+ 
+<script src="script.js"></script>
+
+</body>
+</html>
