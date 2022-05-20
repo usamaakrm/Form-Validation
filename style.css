@@ -15,8 +15,6 @@ section{
    text-align: center;
    align-items: center;
    justify-content: center;
-   border-radius: 20px;
-   box-shadow: 15px 15px 25px rgba(14, 13, 13, 0.595);
 }
 #form{
     display: flex;
@@ -220,7 +218,7 @@ h1,h4{
         margin: 2rem 0;
     }
     .icons{
-         margin-left: 80px;
+         margin-left: 120px;
          position: abso;
     }
 }
