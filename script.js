@@ -24,5 +24,5 @@ const sr = ScrollReveal({
     interval : 100,
     reset: true 
 })
-sr.reveal(`h1,h4`,{delay: 600, origin: 'top'})
+sr.reveal(`#marg`,{delay: 600, origin: 'top'})
 sr.reveal(`.icons`,{origin: 'bottom', interval: 100})
