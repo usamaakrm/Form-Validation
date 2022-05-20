@@ -138,7 +138,10 @@ h1,h4{
 
 /*      responsive   */
 @media only screen and (max-width: 700px){
-    #form{
+   Body{
+       height : 100vh;
+} 
+#form{
         /* background-color: rgba(255, 255, 255, 0.075);
         z-index: 100; */
         width: 100%;
