@@ -107,7 +107,7 @@ h1,h4{
     /* background-color: rgba(2080.671); */
     background-color: #F73859;
     color: #112B3C;
-    box-shadow: 5px 5px w5px rgba(5, 5, 5, 0.268);
+    box-shadow: 5px 5px 15px rgba(5, 5, 5, 0.268);
     padding: 20px 100px;
     border: none;
     border-radius: 10px;
@@ -218,7 +218,7 @@ h1,h4{
         margin: 2rem 0;
     }
     .icons{
-         margin-left:46px;
-         position: abso;
+         margin-left:50px;
+         position: absolute;
     }
 }
