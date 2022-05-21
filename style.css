@@ -105,7 +105,7 @@ h1,h4{
 
 #btn{
     /* background-color: rgba(2080.671); */
-    background-color: #F73859;
+    background-color: #EFEFEF;
     color: #112B3C;
     box-shadow: 5px 5px 15px rgba(5, 5, 5, 0.268);
     padding: 20px 100px;
@@ -128,7 +128,7 @@ h1,h4{
 .icons{
     width: 280px;
     position: relative;
-    margin-left: 120px;
+    margin-left: 80px;
 }
 .icons img{
     /* /* width: 2.5rem; */
